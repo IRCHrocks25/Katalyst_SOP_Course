@@ -20,7 +20,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-7-9br=zyg7m$!ewa^nlsg+&#e+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'kane-sproject-production.up.railway.app', 'danielwoodcourses-production.up.railway.app', 'edmarincourse-production.up.railway.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'kane-sproject-production.up.railway.app', 'danielwoodcourses-production.up.railway.app', 'edmarincourse-production.up.railway.app', 'katalystsopcourse-production.up.railway.app']
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost',
@@ -28,6 +28,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://kane-sproject-production.up.railway.app',
     'https://danielwoodcourses-production.up.railway.app',
     'https://edmarincourse-production.up.railway.app',
+    'https://katalystsopcourse-production.up.railway.app',
 ]
 
 # Application definition
